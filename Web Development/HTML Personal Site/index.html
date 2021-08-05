@@ -6,17 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giang Le's Personal Site</title>
+    <link rel="stylesheet" href="CSS\styles.css">
 </head>
 
 <body>
-    <!-- Use local image later -->
-    <img width="192" height="108" src="https://www.pcgamesn.com/wp-content/uploads/2018/10/gabe_newell_meme.jpg" alt="Gaben's profile picture">
-    <h1>Giang Le</h1>
-    <!-- The latter tag has more emphasis -->
-    <!-- Italic: i or em tag -->
-    <!-- Bold: b or strong tag -->
-    <p><em>Bachelor of Science: <strong> Statistics </strong></em></p>
-    <p>Lord Gaben's <a href="https://store.steampowered.com/">Steam Store</a></p>
+    <!-- Table practice, do it in CSS instead -->
+    <table cellspacing = "20">
+        <tr>
+            <!-- Use local image later -->
+            <td>
+                <img width="192" height="108" src="https://www.pcgamesn.com/wp-content/uploads/2018/10/gabe_newell_meme.jpg" alt="Gaben's profile picture">
+            </td>
+            <td>
+                <h1>Giang Le</h1>
+                <!-- The latter tag has more emphasis -->
+                <!-- Italic: i or em tag -->
+                <!-- Bold: b or strong tag -->
+                <p><em>Bachelor of Science: <strong> Statistics </strong></em></p>
+                <p>Lord Gaben's <a href="https://store.steampowered.com/">Steam Store</a></p>
+            </td>
+        </tr>
+    </table>
+
     <hr size="3">
 
     <h3>Education</h3>
@@ -47,6 +58,52 @@
         <li>Cycling</li>
         <li>Video games</li>
     </ol>
+    <hr>
+    <h3>Work Experience</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Work</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2021-present</td>
+                <td>Accounting Bookkeeper</td>
+            </tr>
+            <tr>
+                <td>2017</td>
+                <td>UVIC Volunteer</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>   
+    </table>
+    <hr>
+    <h3>Skills</h3>
+    <table cellspacing = "10">
+        <tr>
+            <td>R</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+    </table>
+
+    <hr size = "3">
+
     <!-- Look up <a> tag on documentation -->
     <a href="contact-me.html">Contact</a>
 </body>
